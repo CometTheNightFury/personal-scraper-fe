@@ -2,33 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- This is the title that appears on the tab in the browser - feel free to change it! -->
-    <title>My Web Scraper</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600" rel="stylesheet">
+    <title>CATS. CATS EVERYWHERE.</title>
+    <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <!-- This is the main title tag on the page - change it to whatever is appropriate for your webpage! -->
-    <h1>My Web Scraper</h1>
-
-    <!-- The following chunk of code is the form. If you want your user to type something in and click a button before you scrape, you need this or something like it. If not, you can delete. -->
+    <h1>Catz</h1>
     <form action="index.html" method="post">
-      <p>If your user needs to type in some input before you scrape, give them the directions here!</p>
+      <p>Type in anything, and we'll see what comes up when cats are thrown in.</p>
       <div class="form-inputs">
-        <input id="input-field" type="text" placeholder="This should give a prompt as to why to type in...">
-        <input class="submit-btn" type="submit" value="Submit">
+        <input id="input-field" type="text" placeholder="What do you want to cats to hijack?">
+        <input class="submit-btn" type="submit" value="Get Cat Photos">
       </div>
       <div class="loading-gif">
       </div>
     </form>
-
-    <!-- The section below will hold all the data. You can have as much or as little as you want show. The way it appears will be set up in the styles.css file. -->
-    <section id="data-container">
-      <img id="image1" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Ada Lovelace">
-      <img id="image2" src="http://www.contramare.net/site/wp-content/uploads/2016/02/Code-Like-A-Girl-Logo.jpg" alt="Code Like A Girl">
-      <img id="image3" src="https://www.girlscouts.org/images/who_we_are/our_partners/initiatives/made_with_code.jpg" alt="Girl Scout Image">
-      <img id="image4" src="http://www.episkills.com/uploads/1/5/0/0/15008326/552613_orig.jpeg" alt="Programmer Looks Like">
+    <section id="cat-images">
+      <img id="cat1" src="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a_400x400.jpeg" alt="Cat">
+      <img id="cat2" src="http://www.catster.com/wp-content/uploads/2017/11/A-Siamese-cat.jpg" alt="Neko Neko">
+      <img id="cat3" src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2017%2F11%2Fchimera-cat.jpg%3Fw%3D1500&w=700&c=sc&poi=face&q=85" alt="Gato Gato Gato">
+      <img id="cat4" src="https://www.telegraph.co.uk/content/dam/pets/2017/01/06/1-JS117202740-yana-two-face-cat-news_trans_NvBQzQNjv4BqJNqHJA5DVIMqgv_1zKR2kxRY9bnFVTp4QZlQjJfe6H0.jpg?imwidth=450" alt="Chat Chat Chat Chat">
     </section>
 
     <script type="text/javascript" src="./index.js">
